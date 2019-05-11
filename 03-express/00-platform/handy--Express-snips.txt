@@ -6,15 +6,18 @@ create server.ps in project folder
 create these folders in project folder:
 --views
 --static
+  -- static/images
+  --static/stylesheet
 
 npm init -y
 
 npm install express esj body-parser
 
-npm install io.socket
+npm install socket.io
 
 mpm install session
 
+npm install Axios
 Hi it's me
 
 ---don't forget to rebase (git pull before any commits)
